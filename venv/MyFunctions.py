@@ -6,6 +6,7 @@ from strings import *
 def GetHelpMessage():
     return MESSAGE_HELP
 
+
 def GetHelpMessageOld():
     f = open('texts/help.txt', 'r')
     mes = f.read()

@@ -8,6 +8,7 @@ bot = telebot.TeleBot(config.TOKEN)
 
 message_ids = {}
 
+
 @bot.message_handler(commands=['start'])
 def command_start(message):
     id = message.from_user.id
@@ -21,8 +22,9 @@ def command_start(message):
 @bot.message_handler(commands=['help'])
 def command_help(message):
     id = message.from_user.id
-    res = bot.send_message(id, GetHelpMessage())
-    print(res.message_id)
+    #bot.send_message(id, GetHelpMessage())
+    print(MESSAGE_HELP)
+    bot.send_message(id, MESSAGE_HELP)
 
 
 @bot.message_handler(commands=['info_name_edit'])
