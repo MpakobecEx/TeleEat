@@ -1,0 +1,3 @@
+SELECT rowid
+FROM Orders
+WHERE stop IS NULL

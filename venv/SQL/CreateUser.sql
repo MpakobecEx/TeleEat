@@ -1,0 +1,3 @@
+INSERT INTO Users
+VALUES
+(:id, NULL, NULL, -2)
