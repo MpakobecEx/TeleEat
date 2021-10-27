@@ -3,14 +3,14 @@ from SQL import *
 from strings import *
 
 
-def GetHelpMessageOld():
+def GetHelpMessage():
     return MESSAGE_HELP
 
 def GetHelpMessageOld():
     f = open('texts/help.txt', 'r')
     mes = f.read()
     f.close()
-    return str(mes).encode('cp1251')
+    return str(mes).encode('utf-8')
 
 
 def GetOrderCompleteMessange():
