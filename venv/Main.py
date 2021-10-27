@@ -23,7 +23,7 @@ def command_start(message):
 def command_help(message):
     id = message.from_user.id
     #bot.send_message(id, GetHelpMessage())
-    print(MESSAGE_HELP)
+    print("Nya")
     #bot.send_message(id, MESSAGE_HELP)
 
 
