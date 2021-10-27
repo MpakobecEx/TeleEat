@@ -2,7 +2,11 @@ import telebot
 from SQL import *
 from strings import *
 
-def GetHelpMessage():
+
+def GetHelpMessageOld():
+    return MESSAGE_HELP
+
+def GetHelpMessageOld():
     f = open('texts/help.txt', 'r')
     mes = f.read()
     f.close()
