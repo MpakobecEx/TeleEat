@@ -24,7 +24,7 @@ def command_help(message):
     id = message.from_user.id
     #bot.send_message(id, GetHelpMessage())
     print(MESSAGE_HELP)
-    bot.send_message(id, MESSAGE_HELP)
+    #bot.send_message(id, MESSAGE_HELP)
 
 
 @bot.message_handler(commands=['info_name_edit'])
